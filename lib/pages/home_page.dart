@@ -100,7 +100,6 @@ class _HomePageState extends State<HomePage> {
                                     cryptoProvider.transactions[index].date)),
                           ),
                           Container(
-                            color: Colors.green,
                             width: MediaQuery.of(context).size.width / 2.5,
                             child: Text(
                               " TXID:" +
